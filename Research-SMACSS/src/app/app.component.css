@@ -1,0 +1,89 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Layout Styles */
+.info-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Module Styles */
+.info-card__image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.info-card__header {
+    margin-bottom: 15px;
+}
+
+.info-card__name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.info-card__title {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+}
+
+.info-card__body {
+    margin: 15px 0;
+}
+
+.info-card__email,
+.info-card__phone {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.info-card__footer {
+    margin-top: 20px;
+}
+
+/* State Styles */
+.info-card__button1,
+.info-card__button2 {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.info-card__button1 {
+    background-color: #2ecc71;
+}
+
+.info-card__button1:hover {
+    background-color: #00FF00;
+}
+
+.info-card__button2 {
+    background-color: #cb4335;
+}
+
+.info-card__button2:hover {
+    background-color: #FF0000;
+}
+
+/* Theme Styles */
+.info-card--highlight {
+    border: 2px solid #34495e;
+    background-color: #e9f5ff;
+}
